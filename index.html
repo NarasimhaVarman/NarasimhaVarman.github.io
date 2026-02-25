@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name | Video Editor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <img src="assets/profile.jpg" class="profile-pic" alt="Profile">
+    <h1>Dhana Narasimha Varma</h1>
+    <p>Video Editor & Thumbnail Designer</p>
+    <a href="#thumbnails" class="btn">View My Work</a>
+  </section>
+
+
+  <!-- THUMBNAIL SECTION -->
+  <section class="section" id="thumbnails">
+    <h2>Thumbnail Designs</h2>
+
+    <div class="carousel">
+      <button class="arrow left" id="prevBtn">&#10094;</button>
+
+      <div class="carousel-window">
+        <div class="carousel-track" id="carouselTrack">
+
+          <div class="item"><img src="assets/thumbnails/thumb1.jpg"></div>
+          <div class="item"><img src="assets/thumbnails/thumb2.jpg"></div>
+          <div class="item"><img src="assets/thumbnails/thumb3.jpg"></div>
+          <div class="item"><img src="assets/thumbnails/thumb4.jpg"></div>
+          <div class="item"><img src="assets/thumbnails/thumb5.jpg"></div>
+          <div class="item"><img src="assets/thumbnails/thumb6.jpg"></div>
+
+        </div>
+      </div>
+
+      <button class="arrow right" id="nextBtn">&#10095;</button>
+    </div>
+  </section>
+
+
+  <!-- LONG VIDEOS -->
+  <section id="videos" class="section dark">
+    <h2>Long Form Videos</h2>
+
+    <div class="video-grid">
+
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/KzljxUbC37A" allowfullscreen></iframe>
+        <p>Tech Review Edit</p>
+      </div>
+
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/6xxKHyk5cik" allowfullscreen></iframe>
+        <p>Stock Market Explainer Edit</p>
+      </div>
+
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/svCyrBB6EBk" allowfullscreen></iframe>
+        <p>Financial Analysis Edit</p>
+      </div>
+
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/-uWkkRATYBs" allowfullscreen></iframe>
+        <p>Tutorial Style Edit</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SHORTS CAROUSEL -->
+<section class="section">
+  <h2>YouTube Shorts</h2>
+
+  <div class="shorts-carousel">
+
+    <button class="arrow left" id="shortPrevBtn">&#10094;</button>
+
+    <div class="shorts-window">
+      <div class="shorts-track" id="shortsTrack">
+
+        <div class="short-item">
+          <div class="short-wrapper">
+            <iframe src="https://www.youtube.com/embed/ONnBlzUIo_A" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="short-item">
+          <div class="short-wrapper">
+            <iframe src="https://www.youtube.com/embed/4RDdhxwBsQc" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="short-item">
+          <div class="short-wrapper">
+            <iframe src="https://www.youtube.com/embed/NoKLvLmMc5M" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <button class="arrow right" id="shortNextBtn">&#10095;</button>
+
+  </div>
+</section>
+
+<!-- POSTERS SECTION -->
+<section class="section dark">
+  <h2>Poster Designs</h2>
+
+  <div class="posters-carousel">
+
+    <button class="arrow left" id="posterPrevBtn">&#10094;</button>
+
+    <div class="posters-window">
+      <div class="posters-track" id="postersTrack">
+
+        <div class="poster-item">
+          <img src="assets/posters/poster1.jpg" alt="Poster 1">
+        </div>
+
+        <div class="poster-item">
+          <img src="assets/posters/poster2.jpg" alt="Poster 2">
+        </div>
+
+        <div class="poster-item">
+          <img src="assets/posters/poster3.jpg" alt="Poster 3">
+        </div>
+
+        <div class="poster-item">
+          <img src="assets/posters/poster4.jpg" alt="Poster 4">
+        </div>
+
+        <div class="poster-item">
+          <img src="assets/posters/poster5.jpg" alt="Poster 5">
+        </div>
+
+      </div>
+    </div>
+
+    <button class="arrow right" id="posterNextBtn">&#10095;</button>
+
+  </div>
+</section>
+
+  <!-- CONTACT -->
+  <section class="section dark">
+    <h2>Let's Work Together</h2>
+    <p>Email: dhananarasimhavarma@gmail.com</p>
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
